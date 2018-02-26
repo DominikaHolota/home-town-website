@@ -403,7 +403,7 @@ footer a {
   .snippet {
     width: 50%;
     height: 25%;
-    padding: 12px 0 0 0;
+    padding: 12px;
     margin: 0;
   }
 }
@@ -426,22 +426,21 @@ footer a {
 }
 
 @media screen and (min-width: 1250px) {
-  .hero {
+  .hero,
+  .recent-news {
     width: 60%;
   }
-  .top-news {
+  .top-news,
+  .weather {
     width: 20%;
   }
   .scores {
     width: 40%;
     order: 1;
-  }
-  .weather {
-    width: 20%;
-  }
-  .recent-news {
-    width: 60%;
-  }
+}
+
+.top-news {
+  border-bottom: initial;
 }
 
 @media screen and (min-width: 1480px) {
@@ -454,4 +453,5 @@ footer a {
   .snippet {
     width: 25%;
   }
+}
 }
