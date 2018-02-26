@@ -437,21 +437,19 @@ footer a {
   .scores {
     width: 40%;
     order: 1;
-}
-
-.top-news {
-  border-bottom: initial;
-}
-
-@media screen and (min-width: 1480px) {
-  .scores {
-    width: 20%;
   }
-  .recent-news {
-    width: 80%;
+  .top-news {
+    border-bottom: initial;
   }
-  .snippet {
-    width: 25%;
+  @media screen and (min-width: 1480px) {
+    .scores {
+      width: 20%;
+    }
+    .recent-news {
+      width: 80%;
+    }
+    .snippet {
+      width: 25%;
+    }
   }
-}
 }
