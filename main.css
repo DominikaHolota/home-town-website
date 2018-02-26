@@ -383,4 +383,8 @@ footer a {
  *
  */
 
-
+@media screen and (min-width: 550px) {
+  .header__logo {
+    display: initial;
+  }
+}
