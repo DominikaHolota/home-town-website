@@ -179,7 +179,6 @@ main {
  */
 
 .top-news {
-  height: 300px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
 }
@@ -387,4 +386,41 @@ footer a {
   .header__logo {
     display: initial;
   }
+}
+
+@media screen and (min-width: 700px) {
+
+  .header__title {
+    font-size: 4em;
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hero,
+  .scores {
+    width: 60%;
+  }
+
+  .top-news,
+  .weather {
+    width: 40%;
+  }
+
+  .news__items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .snippet {
+    width: 50%;
+    height: 25%;
+    padding: 12px 0 0 0;
+    margin: 0;
+  }
+
+
+
 }
