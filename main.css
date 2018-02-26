@@ -25,7 +25,8 @@ nav,
 footer,
 section,
 article,
-div {
+div,
+li {
   box-sizing: border-box;
 }
 
@@ -421,6 +422,52 @@ footer a {
     margin: 0;
   }
 
+
+
+}
+
+@media screen and (min-width: 1000px) {
+  .header-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .header {
+    width: 60%;
+    box-shadow: initial;
+  }
+
+  .nav {
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+@media screen and (min-width: 1250px) {
+
+  .hero {
+    width: 60%;
+  }
+
+  .top-news {
+    width: 20%;
+  }
+
+  .scores {
+    width: 40%;
+    order: 1;
+  }
+
+  .weather {
+    width: 20%;
+  }
+
+  .recent-news {
+    width: 60%;
+  }
 
 
 }
