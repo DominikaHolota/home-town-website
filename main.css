@@ -471,3 +471,17 @@ footer a {
 
 
 }
+
+@media screen and (min-width: 1480px) {
+  .scores {
+    width: 20%;
+  }
+
+  .recent-news {
+    width: 80%;
+  }
+
+  .snippet {
+    width: 25%;
+  }
+}
