@@ -1,3 +1,5 @@
-Home Town App project from Udacity Front-End Developer Nanodegree 
+Home Town App project from Udacity <a href=https://eu.udacity.com/course/responsive-web-design-fundamentals--ud893">Front-End Developer Nanodegree</a>
 
-(https://eu.udacity.com/course/responsive-web-design-fundamentals--ud893)
+<a href="https://dominikaholota.github.io/home-town-website/">Live Version</a>
+
+
